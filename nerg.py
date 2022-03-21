@@ -2,10 +2,14 @@ import sys
 import socket
 import pyfiglet
 
-banner = pyfiglet.figlet_format("NERG")
-print(banner)
+version 1.0
 
-print("Script made by me. Good dusk ツ\n")
+def banner():
+	banner = pyfiglet.figlet_format("NERG")
+	print(banner)
+	print("Created by github.com/daniloalbuqrque. Good dusk ツ\n")
+
+banner()
 
 if len(sys.argv) == 2:
 	target = socket.gethostbyname(sys.argv[1])
