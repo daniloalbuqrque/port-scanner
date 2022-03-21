@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="/logo.png" alt="NERGimage" width="700px"></a>
+<img src="/images/logo.png" alt="NERGimage" width="700px"></a>
 </h1>
 
 <h4 align="center">
